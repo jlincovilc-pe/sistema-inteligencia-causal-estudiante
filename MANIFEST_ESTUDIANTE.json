@@ -277,11 +277,6 @@
       "sha256": "e45af2f34b2b7688dc3ac5ce054c80c9e3f41dff589239df6fc7f8db52fc022d"
     },
     {
-      "path": "04_produccion_causal/artefactos/demo/.gitkeep",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
       "path": "04_produccion_causal/datos/demo/entrenamiento_confusor.csv",
       "bytes": 562848,
       "sha256": "fbec856094ed5e3655a48e3ae8d484b57d4cee6904037e3fbf582f7008e00063"
