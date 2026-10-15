@@ -388,8 +388,8 @@
     },
     {
       "path": "05_labs_sesion/L05_regularizacion_pds/lab.ipynb",
-      "bytes": 16839,
-      "sha256": "7887a866f64dcb963cf6ca50295231118e3eeca6a554153be5c17cf0bdd9fb3a"
+      "bytes": 14658,
+      "sha256": "2f6b8e080e3d46836a752d89dfc6195fb4c4afe6f04fa2d9a27b175f0850b010"
     },
     {
       "path": "05_labs_sesion/L06_balance_smd/lab.ipynb",
@@ -398,8 +398,8 @@
     },
     {
       "path": "05_labs_sesion/L07_puerta_trasera/lab.ipynb",
-      "bytes": 16520,
-      "sha256": "2db170f2b7f382baf7f04f5e6cdda66563bd710f2182f27fa3685fcce34146a6"
+      "bytes": 14105,
+      "sha256": "f2fa71dadf6bc7a888d1912c73f4666807671a4e9a30dc208f5a4b636a5ae391"
     },
     {
       "path": "05_labs_sesion/L08_features_sin_fuga/lab.ipynb",
@@ -408,33 +408,33 @@
     },
     {
       "path": "05_labs_sesion/L09_ortogonalidad_crossfitting/lab.ipynb",
-      "bytes": 17012,
-      "sha256": "9cf92cdada51c4a3c48bc122c0fb3f1f4cf2bbbb145078f808ebf27d7218a681"
+      "bytes": 15891,
+      "sha256": "6f04f24e400d231ec0d3eaa86373af1322945e9654980b373608537302192894"
     },
     {
       "path": "05_labs_sesion/L10_dml_plr_irm/lab.ipynb",
-      "bytes": 21788,
-      "sha256": "014c2bd2900de566e32c5f281d8f0134b54227c5f229709979d44dc80072faef"
+      "bytes": 11995,
+      "sha256": "40cb685b1afbccc253a5ca44211569961665182d6ebdcb1f177ea67415cbda42"
     },
     {
       "path": "05_labs_sesion/L11_validacion_qini_placebo_evalue/lab.ipynb",
-      "bytes": 25049,
-      "sha256": "db840b8224053489ce08f0297748af3b252d6e3c1cfa33389c6e2b1d949af9ab"
+      "bytes": 8483,
+      "sha256": "46fdfc23391a5643526a6267d29893ecc946509699c5d501ab47939589731c74"
     },
     {
       "path": "05_labs_sesion/L12_servir_estimador/lab.ipynb",
-      "bytes": 20543,
-      "sha256": "1e24223448c07a5556210a510f31e8676bc24d8e2ad0eb9ea519d5532dbcc435"
+      "bytes": 19060,
+      "sha256": "722240fc768e6578f453a493b1e698029dff9cbce940708e8d938c692d878d2e"
     },
     {
       "path": "05_labs_sesion/L13_meta_learners/lab.ipynb",
-      "bytes": 20104,
-      "sha256": "a9dd40bad918d16781df390fbf3887354140d8f08396c70123ed2b4a4978ad9d"
+      "bytes": 7744,
+      "sha256": "c04d70a350ec0619da94b758194fd6c007e915e4adb5606de4bd9e738d158eff"
     },
     {
       "path": "05_labs_sesion/L14_arboles_bosques_causales/lab.ipynb",
-      "bytes": 24715,
-      "sha256": "f5dbf28ace1821476c9523b05bb1fb9e89b416f15595c35261307aad100cbbbc"
+      "bytes": 6249,
+      "sha256": "324ab999327f616cd55f1207a01918b83c0f221ed716a1eb01256435aa6039c6"
     },
     {
       "path": "05_labs_sesion/L15_repaso_integrador/lab.ipynb",
@@ -458,13 +458,13 @@
     },
     {
       "path": "05_labs_sesion/L19_explicacion_causal_equidad_rutas/lab.ipynb",
-      "bytes": 17216,
-      "sha256": "e394d09399f963627f9baab1c94c7070f84077bf41ead818b40e904f081d6be2"
+      "bytes": 6682,
+      "sha256": "9c50f41c53f8f674599087d9e0f636ed598e454135eef42bee0148385e89ea47"
     },
     {
       "path": "05_labs_sesion/L20_etica_interpretabilidad_comunicacion/lab.ipynb",
-      "bytes": 21849,
-      "sha256": "72876932c4d820b9b81934359188b145d0e8e7249835f45c41c6afda0cf0f2d7"
+      "bytes": 12808,
+      "sha256": "eec82fa513e879998ad24bcf2c5182b79d1c3166fcc3b35a6fca1762da0a5435"
     },
     {
       "path": "05_labs_sesion/L21_decisiones_estructurales/lab.ipynb",
@@ -473,13 +473,13 @@
     },
     {
       "path": "05_labs_sesion/L22_politicas_optimas/lab.ipynb",
-      "bytes": 20525,
-      "sha256": "b2f39dcc55507bb9e3eb2611bff6ff6e8c4ffa9ed519bc5d2590876de375a5c5"
+      "bytes": 10997,
+      "sha256": "408c7a2caed372307cd7d25aa4554a0c6d74f2097de66f8bd82b0ebfa4970ae5"
     },
     {
       "path": "05_labs_sesion/L23_uplift_app_local/lab.ipynb",
-      "bytes": 20835,
-      "sha256": "595cfdd5fa2eeba4c7adb2c1c6667ed34b7fbeffbfcdb3dd0b24ff2f499be5b0"
+      "bytes": 3801,
+      "sha256": "0da1df5e7e5f22d64a6d6e18b6dfc9672bec03caeba4a43aa98aa419d110a618"
     },
     {
       "path": "05_labs_sesion/L24_transportabilidad/lab.ipynb",
@@ -493,8 +493,8 @@
     },
     {
       "path": "05_labs_sesion/L26_descubrimiento_causal/lab.ipynb",
-      "bytes": 32918,
-      "sha256": "c9b92e9645666a7c25da0e50cc146f03e5acb17f142a0dc3faf6e7a4b36e6afa"
+      "bytes": 29568,
+      "sha256": "3d4ee6b939372153eb1ad01b1894111e32ece651c8047c8c61fccea1ff62c1c1"
     },
     {
       "path": "05_labs_sesion/L27_aprendizaje_continuo_rl_causal/lab.ipynb",
