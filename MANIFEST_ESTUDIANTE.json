@@ -268,8 +268,8 @@
     },
     {
       "path": "04_produccion_causal/Makefile",
-      "bytes": 211,
-      "sha256": "b04949e3362d444eda55ae667772cbc2e494e33d399ca0a1eaae2d560f9caeb2"
+      "bytes": 264,
+      "sha256": "88062f1edd3d50148fc89c88b856d0c440031b05d75eee7fdd4398273a9b6074"
     },
     {
       "path": "04_produccion_causal/README.md",
@@ -300,6 +300,11 @@
       "path": "04_produccion_causal/pyproject.toml",
       "bytes": 805,
       "sha256": "68ef4b8121b33dcc910db24d6c0f0a1392831ff0342bf2f036d1cee636215ade"
+    },
+    {
+      "path": "04_produccion_causal/scripts/run_demo.py",
+      "bytes": 955,
+      "sha256": "a0c8f4fb33979c433ac0f2947842d117d824bec25992ccfcece9304d27a8ff29"
     },
     {
       "path": "04_produccion_causal/src/causalops/__init__.py",
