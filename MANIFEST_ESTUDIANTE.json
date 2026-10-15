@@ -508,8 +508,8 @@
     },
     {
       "path": "05_labs_sesion/README.md",
-      "bytes": 963,
-      "sha256": "690974a9ca9ef1695764908f0e14ec47155f046c6cb779d06e0a9c61fada38fa"
+      "bytes": 1025,
+      "sha256": "3c2d9d571a35309d4c3597ac200c5d54988bf70f3d1ee57ffb1a0696ad9da98c"
     },
     {
       "path": "05_labs_sesion/lab_artifacts.py",
@@ -573,8 +573,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3122,
-      "sha256": "03f53d1c64ab4fc0536287d82fce02e5ce105c954e38fda9cfb9813d1e04a47e"
+      "bytes": 3180,
+      "sha256": "7e9e146b060710f100123074175409f38953bb0dee6a74b6f87e876c25c951bb"
     },
     {
       "path": "data_benchmark_causal/README.md",

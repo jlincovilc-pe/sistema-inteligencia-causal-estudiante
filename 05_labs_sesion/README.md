@@ -9,6 +9,6 @@ Este directorio contiene un notebook de estudiante para L01–L15 y L17–L28, m
 3. Completa las celdas marcadas y guarda tu copia o exporta las respuestas.
 4. Conserva la separación entre observables y cualquier resultado de evaluación reservado.
 
-Los labs usan los escenarios de `data_benchmark_causal/`. El paquete no contiene `solution.ipynb`, autograders ni archivos `truth`. L24 y L25 terminan antes de sus celdas docentes que requieren verdad simulada; documenta qué podrías concluir con observables y qué queda sin verificar.
+Los labs usan los escenarios de `data_benchmark_causal/`. El paquete no contiene `solution.ipynb`, autograders ni archivos `truth`. Las celdas marcadas como evaluación reservada se omiten en esta edición cuando requieren verdad simulada, efectos potenciales u oráculos; documenta qué podrías concluir con observables y qué queda sin verificar.
 
 La entrega calificada es el proyecto único de `06_proyecto_final/`; los labs y A1–A4 son preparación formativa.

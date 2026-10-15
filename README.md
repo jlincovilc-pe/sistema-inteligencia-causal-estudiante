@@ -68,7 +68,7 @@ L16 es una guía Markdown de preparación de la defensa y no tiene notebook.
 4. Usa `04_produccion_causal/` para construir servicio, tarjeta, puerta, registro y monitor local.
 5. Entrega solo el proyecto descrito en `06_proyecto_final/`; los labs y Serie A/B son formativos.
 
-Los notebooks A1–A4 incluyen una sección final reservada para evaluación con verdad sintética. Esa sección no forma parte de la evidencia pública del estudiante; las decisiones deben apoyarse en observables, incertidumbre, soporte y supuestos declarados.
+Los notebooks A1–A4 y los labs que señalan una sección de evaluación reservada terminan antes de las comparaciones con verdad sintética u oráculos. Esas secciones no forman parte de la evidencia pública del estudiante; las decisiones deben apoyarse en observables, incertidumbre, soporte y supuestos declarados.
 
 ## Qué no contiene este repositorio
 
