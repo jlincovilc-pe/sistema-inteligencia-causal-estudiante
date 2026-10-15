@@ -14,11 +14,12 @@ python3 -m venv .venv-causal
 . .venv-causal/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+python -m ipykernel install --user --name sic-estudiante --display-name "Python (SIC estudiante)"
 python scripts/doctor_minimo.py
 python scripts/validate_student_repo.py
 ```
 
-Abre Jupyter desde la raíz del repositorio. Los notebooks de Serie A esperan ejecutarse desde `03_notebooks_caso_estudio/notebooks/`; los labs pueden abrirse directamente desde su carpeta.
+Abre Jupyter desde la raíz del repositorio y selecciona el kernel `Python (SIC estudiante)`. Los notebooks de Serie A esperan ejecutarse desde `03_notebooks_caso_estudio/notebooks/`; los labs pueden abrirse directamente desde su carpeta.
 
 ## Datos y límites
 

@@ -10,6 +10,7 @@ Entorno validado: Linux x86_64 y Python 3.13.13.
 python3 -m venv .venv-causal
 . .venv-causal/bin/activate
 python -m pip install -r requirements.txt
+python -m ipykernel install --user --name sic-estudiante --display-name "Python (SIC estudiante)"
 python scripts/doctor_minimo.py
 python scripts/validate_student_repo.py
 ```
