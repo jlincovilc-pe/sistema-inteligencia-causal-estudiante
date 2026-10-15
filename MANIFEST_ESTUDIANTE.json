@@ -103,23 +103,23 @@
     },
     {
       "path": "03_notebooks_caso_estudio/notebooks/A1_identificacion_jobs.ipynb",
-      "bytes": 31990,
-      "sha256": "a55f6b36e031cc5952049d8bfbf4212308abd2668bf24a8607a37331b6ec50ec"
+      "bytes": 32209,
+      "sha256": "0a6e0ece97d2b1f195646474e2e96f2db52ef44b6735a633b6056ae93b724f99"
     },
     {
       "path": "03_notebooks_caso_estudio/notebooks/A2_dml_ihdp_medium.ipynb",
-      "bytes": 26343,
-      "sha256": "ca0bb7238ba29e1637e5f42a12dfcd22f348ae234798dfa696d1a6a7f58baf70"
+      "bytes": 26562,
+      "sha256": "283156db1559546441a7ab961758ec24808f8ce10f3ce4ef446335ffec3e5e53"
     },
     {
       "path": "03_notebooks_caso_estudio/notebooks/A3_cate_meta_learners_ihdp.ipynb",
-      "bytes": 20333,
-      "sha256": "79255f2cce884fc5cbcb069903783062b5d9a5c3b0e7d7f0560f662370df06f5"
+      "bytes": 20534,
+      "sha256": "3c3ac628913518009cf6610317ace637c571bd68250a7a51b9c5d4bb57ea7f33"
     },
     {
       "path": "03_notebooks_caso_estudio/notebooks/A4_policy_uplift_ihdp.ipynb",
-      "bytes": 20322,
-      "sha256": "677c64a9bbca35429cee0c902e3fd479fa22ac2a2afbc332b2f326e49fb54ff8"
+      "bytes": 20505,
+      "sha256": "a40ee14f184034003bdae3da06ae3b6420949bb37c0e198a13500f0d17289146"
     },
     {
       "path": "03_notebooks_caso_estudio/requirements.txt",
@@ -368,78 +368,78 @@
     },
     {
       "path": "05_labs_sesion/L01_causalidad_elemental/lab.ipynb",
-      "bytes": 14833,
-      "sha256": "aa4c1a8872e8ed07328a74eb7a19f60790907f83b191eff26d6c0f50f0e5083e"
+      "bytes": 15442,
+      "sha256": "e4cf06ead8d4122451f24fa93a56abcd58967c286f3393a0f6a36a4affa89727"
     },
     {
       "path": "05_labs_sesion/L02_entorno_local/lab.ipynb",
-      "bytes": 14896,
-      "sha256": "72f91e6c904fd28e12a352fcda3319721e78579401c530eb289086f59dd6c9e2"
+      "bytes": 15400,
+      "sha256": "4f8ff91791cc4cf836a9c86b438a786139e5a584be0d6dd017948de9cd4da3d1"
     },
     {
       "path": "05_labs_sesion/L03_scm_jerarquia_causal/lab.ipynb",
-      "bytes": 15659,
-      "sha256": "efd7c8d97f08dc0930720104bbb5db292764eabdb42efd82360c7b77608ab131"
+      "bytes": 16184,
+      "sha256": "943cc82cb29bc733abb2989239f2fe2a1b1226878bcc051ddcb0eb4dbe4b335c"
     },
     {
       "path": "05_labs_sesion/L04_schema_roles_jobs/lab.ipynb",
-      "bytes": 11568,
-      "sha256": "0935b69ed4a2ee42ebdbec395fd4b7a5f4e2db0687dbf4937737ca2b03ea2e05"
+      "bytes": 11988,
+      "sha256": "7319af6de8b405c78c46fd3e48d03a31de6da969f7a2bfb6fa66f9e6d1433f4d"
     },
     {
       "path": "05_labs_sesion/L05_regularizacion_pds/lab.ipynb",
-      "bytes": 16293,
-      "sha256": "3422e0171abb05d4e4f629e9b7d0d8d991f8f09dc8da6a419f4bcb002ef1557f"
+      "bytes": 16839,
+      "sha256": "8ad54f1378a0b9fd6b5a08793b8f0660b4ab7ce279708854c90352cf57f1b1e2"
     },
     {
       "path": "05_labs_sesion/L06_balance_smd/lab.ipynb",
-      "bytes": 16074,
-      "sha256": "9a768c87f56f297b8d171432b3eeae3fb6a0c698e14aac2603f75de6ddc756e0"
+      "bytes": 16599,
+      "sha256": "cf99e34d562110041a3c58e7fcd48ed8b636aa60c0b866a5e3cb470e2d4d1837"
     },
     {
       "path": "05_labs_sesion/L07_puerta_trasera/lab.ipynb",
-      "bytes": 15974,
-      "sha256": "740b635d0a6758736790dce3ba2cb787ce6b5d4bb9bbee51ba306d078fdbd1d5"
+      "bytes": 16520,
+      "sha256": "0f4a53017a07f30bda8fe1634daf6c970c8b57a34dd4d384fc4dda5806d4ac31"
     },
     {
       "path": "05_labs_sesion/L08_features_sin_fuga/lab.ipynb",
-      "bytes": 14611,
-      "sha256": "9a8515afb8f02c507fe73e9f448f293af6bbad1d77e3301dd765aa9b7ce4031a"
+      "bytes": 15094,
+      "sha256": "a1c509306f33bbf1bafb5e968c8da66025cc5c1b739fab4d2532242b234d7545"
     },
     {
       "path": "05_labs_sesion/L09_ortogonalidad_crossfitting/lab.ipynb",
-      "bytes": 16529,
-      "sha256": "0df72ef4a04cb030ab627d99f239095966e03f1efc4fffb2b400008b0a4861c4"
+      "bytes": 17012,
+      "sha256": "ab9f3b605052d9a37ad26f12547068017fce085301ea4628ee38e2e792d973f2"
     },
     {
       "path": "05_labs_sesion/L10_dml_plr_irm/lab.ipynb",
-      "bytes": 21179,
-      "sha256": "13ce20c0da47303e6e74919e82d631cf4dffadda0ec5557c0799a75482e65a3e"
+      "bytes": 21788,
+      "sha256": "5a5827c927cb2dd172306aecf8c076545354e8e41069e12d572dd983b39ddd6a"
     },
     {
       "path": "05_labs_sesion/L11_validacion_qini_placebo_evalue/lab.ipynb",
-      "bytes": 24335,
-      "sha256": "4a171ef358f71b954c1039c6054c20a3e8f355f4d2dc1052fc2e6b7a8bf9ab6a"
+      "bytes": 25049,
+      "sha256": "a0ba1d30cea225acc8c1f8d7b5215affb4b8147753b253039817400d8967957c"
     },
     {
       "path": "05_labs_sesion/L12_servir_estimador/lab.ipynb",
-      "bytes": 20018,
-      "sha256": "2cbb894dece7b8a2a25added19e70a8d8cbb97c4ced597f559dd0b1ab5d6f8d9"
+      "bytes": 20543,
+      "sha256": "4ff789ed08c406dc71add59f1e9441e17fca114ed1d9880a919d9bb9cae9100b"
     },
     {
       "path": "05_labs_sesion/L13_meta_learners/lab.ipynb",
-      "bytes": 19495,
-      "sha256": "819381ab0e940cbab6aa2e5ce7012c39951504207791af1eb1433c1af620b2be"
+      "bytes": 20104,
+      "sha256": "e1ff9f3719ff52c7c2a716239723761cca33e4970c012945537f8f40b178d684"
     },
     {
       "path": "05_labs_sesion/L14_arboles_bosques_causales/lab.ipynb",
-      "bytes": 24022,
-      "sha256": "91250dc1c6e48649ec1bab365acfef49c078f5a36153d009f956123685b5a5a7"
+      "bytes": 24715,
+      "sha256": "b67d5402ff33e7f17b4eab6b2a7b4f1e2ecc225cd1b7e8b02652f22671fd090b"
     },
     {
       "path": "05_labs_sesion/L15_repaso_integrador/lab.ipynb",
-      "bytes": 17664,
-      "sha256": "e45e5b003cbf45a29392da2ccaa214361ac151c1760a9c801d18469af132a775"
+      "bytes": 18189,
+      "sha256": "67d80d7600a6821e66f7de529b7b342a1decc171e90f414a06a28da80da5c4cb"
     },
     {
       "path": "05_labs_sesion/L16_guia_defensa/L16_guia_defensa.md",
@@ -448,63 +448,63 @@
     },
     {
       "path": "05_labs_sesion/L17_model_cards_registro_local/lab.ipynb",
-      "bytes": 19566,
-      "sha256": "19ab128cbc01be363f3ef31931403423c95057706e6ab7463b8ab9c463d8a209"
+      "bytes": 20070,
+      "sha256": "04ecf140ef379112b59aed7e0efbb17c36533d8ffd44005334325d377042a68d"
     },
     {
       "path": "05_labs_sesion/L18_ci_local_estadistico/lab.ipynb",
-      "bytes": 20629,
-      "sha256": "6ba889b3b49894b082b45f95f0fd29b34f24ffd4570270bc7cd097d3ffd3f97a"
+      "bytes": 21280,
+      "sha256": "4787d34d446ffab6d05cbaa58bc4689ece4492c9009d4bf0e9f99e96cd250ee4"
     },
     {
       "path": "05_labs_sesion/L19_explicacion_causal_equidad_rutas/lab.ipynb",
-      "bytes": 16649,
-      "sha256": "766aacf2e60764a18084074323b065488e41dd1ec0a7ea4f09ae0f4549d4ae4a"
+      "bytes": 17216,
+      "sha256": "7fcb595d1dd7e155df6feb86454a9e3f73ae042967747e67d54491bca10687c7"
     },
     {
       "path": "05_labs_sesion/L20_etica_interpretabilidad_comunicacion/lab.ipynb",
-      "bytes": 21261,
-      "sha256": "1918774d3bfb68f60f613d6e1ca026fd8cb88726703544288dc9b408d667907a"
+      "bytes": 21849,
+      "sha256": "342fc3380403bde36ff5b1f6eeb5d20611acca3e75098c7c4d65051691d6256f"
     },
     {
       "path": "05_labs_sesion/L21_decisiones_estructurales/lab.ipynb",
-      "bytes": 17309,
-      "sha256": "2b12684d014715b782f8b6013a9db6959157e35e93b763b99c661cafd217b9d7"
+      "bytes": 17855,
+      "sha256": "dd5d4bb1df6b4db90bc4f71a1cd51773d4f3437b29ff4637d968e0ca3cb70d75"
     },
     {
       "path": "05_labs_sesion/L22_politicas_optimas/lab.ipynb",
-      "bytes": 19958,
-      "sha256": "620113a037c03992646c7062bdc41e409494a81dcf928862a8dcab3d587823b9"
+      "bytes": 20525,
+      "sha256": "f0aade9f8a6e56e568266b0b12243da3beac4887e17188762c6f6f4b2c0b9c3c"
     },
     {
       "path": "05_labs_sesion/L23_uplift_app_local/lab.ipynb",
-      "bytes": 20226,
-      "sha256": "c5f2dc0f5e5b3cb0ff9951688d9861807969b897d74087a9941891ad73eb7546"
+      "bytes": 20835,
+      "sha256": "2ae7f71612dc2fb7e4315a2cf11418aca133d40bbf56b974430921b5ce70b0ba"
     },
     {
       "path": "05_labs_sesion/L24_transportabilidad/lab.ipynb",
-      "bytes": 4759,
-      "sha256": "7d1ae555cf65e07a3b447c3203b75ec8b8f5f9a4838bca8537fcc70a187c84c3"
+      "bytes": 4862,
+      "sha256": "dc394f34f4cf4d08f40ca25ee1f4e41700383a47d73c6219fcfb8feb4ac1ee55"
     },
     {
       "path": "05_labs_sesion/L25_monitoreo_supuestos/lab.ipynb",
-      "bytes": 4526,
-      "sha256": "cde6f3cb7c7311839aea0be15f19cc28bdd03ee1b5f7b65be426ffe970f9d6e9"
+      "bytes": 4597,
+      "sha256": "e1d3c220599e9fcefc374995dd5d64984c9768138227129d9b59ba250369666d"
     },
     {
       "path": "05_labs_sesion/L26_descubrimiento_causal/lab.ipynb",
-      "bytes": 32141,
-      "sha256": "0d1ffa07ca45e504d4dc687bf73b0f017edea664730ede77cba7bdd3848ab8d5"
+      "bytes": 32918,
+      "sha256": "2b830f19a20336f16583b243028fae2f4dbb72d507f64297d9c74f4592dc32ca"
     },
     {
       "path": "05_labs_sesion/L27_aprendizaje_continuo_rl_causal/lab.ipynb",
-      "bytes": 29205,
-      "sha256": "f381fbc95d17840137431d9525d18408dd96d048aa9b7df8f5c48030363ccff6"
+      "bytes": 29919,
+      "sha256": "c11d8662a92859d53f5c8b55720aad20a6a478b4b7922b3804c2720b6e98d80a"
     },
     {
       "path": "05_labs_sesion/L28_lado_humano/lab.ipynb",
-      "bytes": 19728,
-      "sha256": "ed6473a9c627c1f9aabfcc7bd8274a5125465cd3cb4c4cbeda865a9830f9dfa9"
+      "bytes": 20232,
+      "sha256": "bd5a1b0bd6edad4682976734a25e282077052ad29cef8aa48703f32503b3c6d4"
     },
     {
       "path": "05_labs_sesion/README.md",
