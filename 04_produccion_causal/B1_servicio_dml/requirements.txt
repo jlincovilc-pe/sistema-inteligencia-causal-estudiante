@@ -1,0 +1,10 @@
+# B1: servicio DML local con versiones fijadas
+fastapi==0.135.3
+uvicorn[standard]==0.44.0
+pydantic==2.12.4
+numpy==2.4.2
+pandas==2.3.3
+scikit-learn==1.6.1
+joblib==1.5.3
+httpx==0.28.1
+pytest==8.4.2

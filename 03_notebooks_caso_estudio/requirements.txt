@@ -1,0 +1,19 @@
+# Serie A: versiones fijadas para los notebooks de caso de estudio
+numpy==2.4.2
+pandas==2.3.3
+scipy==1.17.0
+scikit-learn==1.6.1
+matplotlib==3.10.8
+seaborn==0.13.2
+statsmodels==0.14.6
+networkx==3.6.1
+joblib==1.5.3
+pyyaml==6.0.3
+econml==0.16.0
+# doubleml es un backend opcional; el camino por defecto usa EconML o sklearn.
+jupyter==1.1.1
+nbformat==5.10.4
+nbconvert==7.17.0
+pytest==8.4.2
+nbclient==0.10.4
+ipykernel==7.2.0

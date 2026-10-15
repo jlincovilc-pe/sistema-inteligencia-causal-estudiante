@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "source_of_truth": {
+    "syllabus": "01_silabo/silabo.pdf",
+    "monograph": "02_monografia/monografia_curso.pdf",
+    "data": "data_benchmark_causal/causal_benchmark_synthetic/datasets/"
+  },
+  "canonical_root": "05_labs_sesion",
+  "deprecated_root": null,
+  "labs": [
+    {
+      "id": "L01",
+      "session": 1,
+      "chapter": "1",
+      "folder": "L01_causalidad_elemental",
+      "scenario": null,
+      "artifact": "conceptual_causal_question"
+    },
+    {
+      "id": "L02",
+      "session": 2,
+      "chapter": "2",
+      "folder": "L02_entorno_local",
+      "scenario": null,
+      "artifact": "local_environment_contract"
+    },
+    {
+      "id": "L03",
+      "session": 3,
+      "chapter": "3",
+      "folder": "L03_scm_jerarquia_causal",
+      "scenario": "synthetic/linear_gaussian/10_vars_10_edges",
+      "artifact": "candidate_dag"
+    },
+    {
+      "id": "L04",
+      "session": 4,
+      "chapter": "4",
+      "folder": "L04_schema_roles_jobs",
+      "scenario": "real/jobs",
+      "artifact": "jobs_schema_roles"
+    },
+    {
+      "id": "L05",
+      "session": 5,
+      "chapter": "6 (+16 elective)",
+      "folder": "L05_regularizacion_pds",
+      "scenario": "real/jobs",
+      "artifact": "pds_estimate"
+    },
+    {
+      "id": "L06",
+      "session": 6,
+      "chapter": "7",
+      "folder": "L06_balance_smd",
+      "scenario": "real/jobs",
+      "artifact": "official_splits_overlap"
+    },
+    {
+      "id": "L07",
+      "session": 7,
+      "chapter": "8",
+      "folder": "L07_puerta_trasera",
+      "scenario": "synthetic/edge_cases/latent_confounder",
+      "artifact": "identification_decision"
+    },
+    {
+      "id": "L08",
+      "session": 8,
+      "chapter": "9",
+      "folder": "L08_features_sin_fuga",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "leakage_audit"
+    },
+    {
+      "id": "L09",
+      "session": 9,
+      "chapter": "10",
+      "folder": "L09_ortogonalidad_crossfitting",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "oof_residuals"
+    },
+    {
+      "id": "L10",
+      "session": 10,
+      "chapter": "11",
+      "folder": "L10_dml_plr_irm",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "a2_dml_estimate"
+    },
+    {
+      "id": "L11",
+      "session": 11,
+      "chapter": "14",
+      "folder": "L11_validacion_qini_placebo_evalue",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "a2_validation"
+    },
+    {
+      "id": "L12",
+      "session": 12,
+      "chapter": "15",
+      "folder": "L12_servir_estimador",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "local_service_contract"
+    },
+    {
+      "id": "L13",
+      "session": 13,
+      "chapter": "12",
+      "folder": "L13_meta_learners",
+      "scenario": "real/ihdp",
+      "artifact": "cate_scores"
+    },
+    {
+      "id": "L14",
+      "session": 14,
+      "chapter": "13",
+      "folder": "L14_arboles_bosques_causales",
+      "scenario": "real/ihdp",
+      "artifact": "heterogeneity_audit"
+    },
+    {
+      "id": "L15",
+      "session": 15,
+      "chapter": "repaso 1–15",
+      "folder": "L15_repaso_integrador",
+      "scenario": "real/jobs + synthetic/inference/ihdp_medium + real/ihdp",
+      "artifact": "integrated_audit"
+    },
+    {
+      "id": "L16",
+      "session": 16,
+      "chapter": "repaso/defensa",
+      "folder": "L16_guia_defensa",
+      "scenario": null,
+      "artifact": "checkpoint_defense"
+    },
+    {
+      "id": "L17",
+      "session": 17,
+      "chapter": "19",
+      "folder": "L17_model_cards_registro_local",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "causal_model_card"
+    },
+    {
+      "id": "L18",
+      "session": 18,
+      "chapter": "20",
+      "folder": "L18_ci_local_estadistico",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "local_ci_gate"
+    },
+    {
+      "id": "L19",
+      "session": 19,
+      "chapter": "23",
+      "folder": "L19_explicacion_causal_equidad_rutas",
+      "scenario": "real/ihdp",
+      "artifact": "causal_explanation_table"
+    },
+    {
+      "id": "L20",
+      "session": 20,
+      "chapter": "24",
+      "folder": "L20_etica_interpretabilidad_comunicacion",
+      "scenario": "real/ihdp",
+      "artifact": "interpretability_audit"
+    },
+    {
+      "id": "L21",
+      "session": 21,
+      "chapter": "25",
+      "folder": "L21_decisiones_estructurales",
+      "scenario": "real/ihdp",
+      "artifact": "decision_problem"
+    },
+    {
+      "id": "L22",
+      "session": 22,
+      "chapter": "21",
+      "folder": "L22_politicas_optimas",
+      "scenario": "real/ihdp",
+      "artifact": "topk_policy"
+    },
+    {
+      "id": "L23",
+      "session": 23,
+      "chapter": "22",
+      "folder": "L23_uplift_app_local",
+      "scenario": "real/ihdp",
+      "artifact": "uplift_policy_interface"
+    },
+    {
+      "id": "L24",
+      "session": 24,
+      "chapter": "26",
+      "folder": "L24_transportabilidad",
+      "scenario": "real/ihdp",
+      "artifact": "transportability_diagnostic"
+    },
+    {
+      "id": "L25",
+      "session": 25,
+      "chapter": "30",
+      "folder": "L25_monitoreo_supuestos",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "assumption_monitor"
+    },
+    {
+      "id": "L26",
+      "session": 26,
+      "chapter": "29",
+      "folder": "L26_descubrimiento_causal",
+      "scenario": "synthetic/linear_gaussian/10_vars_10_edges",
+      "artifact": "pc_skeleton"
+    },
+    {
+      "id": "L27",
+      "session": 27,
+      "chapter": "31",
+      "folder": "L27_aprendizaje_continuo_rl_causal",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "retrain_or_alert_rule"
+    },
+    {
+      "id": "L28",
+      "session": 28,
+      "chapter": "32",
+      "folder": "L28_lado_humano",
+      "scenario": "synthetic/inference/ihdp_medium",
+      "artifact": "one_page_causal_summary"
+    }
+  ]
+}

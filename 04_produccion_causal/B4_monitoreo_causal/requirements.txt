@@ -1,0 +1,6 @@
+# B4: monitoreo causal local con versiones fijadas
+numpy==2.4.2
+pandas==2.3.3
+scipy==1.17.0
+scikit-learn==1.6.1
+pytest==8.4.2
