@@ -11,6 +11,14 @@ Serie B convierte los artefactos de Serie A en un flujo local: estimador/servici
 
 Los directorios `artifacts/` y `reports/` son puntos de salida; los artefactos precalculados y los autograders docentes se excluyen. La disponibilidad de un endpoint no demuestra identificación causal: declara estimando, población, incertidumbre y supuestos en tu tarjeta.
 
+Desde `04_produccion_causal/` puedes comprobar la ruta pública:
+
+```bash
+make validate
+make demo     # genera artefactos locales ignorados y prueba pasa/bloquea/abstención
+make monitor  # genera ventanas de monitoreo en B4/reports/
+```
+
 | Componente | Entrada del estudiante | Salida |
 |---|---|---|
 | B1 | estimador A2 y contrato de datos | respuesta ATE/IC o abstención |
