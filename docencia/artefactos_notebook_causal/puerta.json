@@ -1,0 +1,15 @@
+{
+  "estado": "alerta",
+  "metricas": {
+    "e_min": 0.0121,
+    "e_max": 0.7895,
+    "ess_relativo": 0.6674,
+    "fuera_de_banda": 0.0035
+  },
+  "umbrales": {
+    "e_alerta": 0.05,
+    "e_falla": 0.01,
+    "ess_alerta": 0.5,
+    "ess_falla": 0.2
+  }
+}

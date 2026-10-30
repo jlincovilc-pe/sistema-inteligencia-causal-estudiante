@@ -1,0 +1,147 @@
+{
+  "modelo": "ate_doble_seleccion",
+  "version": "1.0.0",
+  "semilla": 42,
+  "estimando": "ATE = E[Y(1) - Y(0)] sobre re78, en dólares",
+  "efecto": {
+    "ate": 1619.2950917788728,
+    "se": 80.72918029871377,
+    "ic95": [
+      1461.0658983933938,
+      1777.5242851643518
+    ]
+  },
+  "features": [
+    "age",
+    "educ",
+    "black",
+    "nodegree",
+    "re74",
+    "re75",
+    "age2",
+    "educ2",
+    "log_re74",
+    "log_re75",
+    "cero74",
+    "cero75",
+    "log74_log75",
+    "black_educ",
+    "nodeg_age",
+    "black_nodeg",
+    "educ_age",
+    "re75_age",
+    "re75_educ"
+  ],
+  "conjunto_ajuste": [
+    "age",
+    "educ",
+    "black",
+    "nodegree",
+    "re74",
+    "re75"
+  ],
+  "controles_usados": [
+    "age",
+    "educ",
+    "black",
+    "nodegree",
+    "re74",
+    "re75",
+    "log_re74",
+    "log_re75",
+    "cero74",
+    "cero75",
+    "black_nodeg",
+    "re75_educ"
+  ],
+  "lambda": {
+    "y": 21.097625325945113,
+    "d": 0.0035605369384851026
+  },
+  "soporte_p1_p99": {
+    "age": [
+      17.0,
+      55.0
+    ],
+    "educ": [
+      3.0,
+      16.0
+    ],
+    "black": [
+      0.0,
+      1.0
+    ],
+    "nodegree": [
+      0.0,
+      1.0
+    ],
+    "re74": [
+      0.0,
+      25197.79999999995
+    ],
+    "re75": [
+      0.0,
+      19518.053099999997
+    ]
+  },
+  "datos": {
+    "n": 1722,
+    "tasa_tratamiento": 0.3833,
+    "semilla": 42,
+    "sha256_datos": "60e340727822c929b9e1afa12cf6c6653dace60549a7e60738de2bd134e5b2eb",
+    "limites": "datos sintéticos; sin validez externa; el archivo truth no entra al entrenamiento"
+  },
+  "supuestos": [
+    {
+      "nombre": "no_confusion_condicional",
+      "clase": "no_observable",
+      "detalle": "Y(0),Y(1) ⟂ treat | X con X = conjunto de ajuste declarado (Cap. 5)"
+    },
+    {
+      "nombre": "soporte_comun",
+      "clase": "observable",
+      "detalle": "0 < P(treat=1|X) < 1; se mide en la sección 4"
+    },
+    {
+      "nombre": "SUTVA",
+      "clase": "no_observable",
+      "detalle": "sin interferencia entre unidades y una sola versión del programa (Cap. 5)"
+    },
+    {
+      "nombre": "efecto_homogeneo_PLR",
+      "clase": "no_observable",
+      "detalle": "la especificación parcialmente lineal impone un efecto constante; no se contrasta"
+    },
+    {
+      "nombre": "esparsidad_aproximada",
+      "clase": "no_observable",
+      "detalle": "pocos controles derivados relevantes; requisito de la selección con LASSO (Cap. 6)"
+    }
+  ],
+  "validacion": {
+    "efecto_por_construccion": 1600.0,
+    "montecarlo": [
+      {
+        "procedimiento": "ingenuo",
+        "sesgo": -28.7175,
+        "sd": 82.7735,
+        "cobertura_ic95": 0.91,
+        "mc_se_cobertura": 0.0218
+      },
+      {
+        "procedimiento": "doble",
+        "sesgo": -20.9289,
+        "sd": 83.6357,
+        "cobertura_ic95": 0.93,
+        "mc_se_cobertura": 0.0218
+      },
+      {
+        "procedimiento": "oraculo",
+        "sesgo": -20.6054,
+        "sd": 83.3591,
+        "cobertura_ic95": 0.92,
+        "mc_se_cobertura": 0.0218
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "modelo": "ate_rct_difference_in_means",
+  "version": "3.0.0",
+  "semilla_cv": 42,
+  "estimando": "ATE = E[Y(1) - Y(0)] sobre re78, en dólares de 1978, para la muestra experimental NSW",
+  "efecto": {
+    "ate": 1794.342404270271,
+    "se": 670.9965463815241,
+    "ic95": [
+      474.0104698178568,
+      3114.674338722685
+    ]
+  },
+  "ajuste_doubleml_secundario": {
+    "ate": 1314.6211995277995,
+    "se": 640.6170987806963,
+    "ic95": [
+      59.03475803709648,
+      2570.2076410185027
+    ],
+    "n_folds": 5
+  },
+  "features": [
+    "age",
+    "educ",
+    "black",
+    "hispan",
+    "married",
+    "nodegree",
+    "re74",
+    "re75",
+    "age2",
+    "educ2",
+    "log_re74",
+    "log_re75",
+    "cero74",
+    "cero75",
+    "log74_log75",
+    "black_educ",
+    "nodeg_age",
+    "black_nodeg",
+    "educ_age",
+    "re75_age",
+    "re75_educ"
+  ],
+  "conjunto_ajuste": [
+    "age",
+    "educ",
+    "black",
+    "hispan",
+    "married",
+    "nodegree",
+    "re74",
+    "re75"
+  ],
+  "nuisance": {
+    "ml_l": "PostLasso(cv=5)",
+    "ml_m": "PostLasso(cv=5)",
+    "n_folds": 5
+  },
+  "soporte_p1_p99": {
+    "age": [
+      17.0,
+      46.0
+    ],
+    "educ": [
+      4.0,
+      14.0
+    ],
+    "black": [
+      0.0,
+      1.0
+    ],
+    "hispan": [
+      0.0,
+      1.0
+    ],
+    "married": [
+      0.0,
+      1.0
+    ],
+    "nodegree": [
+      0.0,
+      1.0
+    ],
+    "re74": [
+      0.0,
+      27013.100800000004
+    ],
+    "re75": [
+      0.0,
+      15236.531200000005
+    ]
+  },
+  "datos": {
+    "dataset_id": "lalonde_nsw",
+    "n": 445,
+    "tratados": 185,
+    "controles": 260,
+    "tasa_tratamiento": 0.4157,
+    "sha256_datos": "4c773801a2af3889277036b5dab929c556c7e92ae5b20833f052ded3cc6b092b",
+    "diseño": "muestra experimental aleatorizada NSW; covariables pretratamiento",
+    "limites": "solo resultados factuales; sin contrafactuales individuales; validez externa limitada",
+    "fuente": "NBER; Lalonde (1986), Dehejia-Wahba; atribución y uso no comercial según fuente"
+  },
+  "supuestos": [
+    {
+      "nombre": "no_confusion_condicional",
+      "clase": "no_observable",
+      "detalle": "la asignación aleatoria documentada apoya intercambiabilidad; el cumplimiento del protocolo no se verifica solo con el CSV"
+    },
+    {
+      "nombre": "soporte_comun",
+      "clase": "observable",
+      "detalle": "ambos niveles de treat están presentes; la puerta diagnostica solapamiento observado"
+    },
+    {
+      "nombre": "SUTVA",
+      "clase": "no_observable",
+      "detalle": "sin interferencia entre unidades y una sola versión del programa"
+    },
+    {
+      "nombre": "efecto_homogeneo_PLR",
+      "clase": "no_observable",
+      "detalle": "solo para la estimación secundaria Double ML parcialmente lineal; no es requisito para la diferencia de medias"
+    },
+    {
+      "nombre": "esparsidad_aproximada",
+      "clase": "no_observable",
+      "detalle": "supuesto de los learners Post-LASSO usados en la sensibilidad Double ML"
+    }
+  ],
+  "validacion": {
+    "tipo": "comparación de estimadores en una muestra experimental real",
+    "estimador_principal": "diferencia de medias con IC de Welch",
+    "ate_referencia_muestral": 1794.342404270271,
+    "ic95_referencia_muestral": [
+      474.0104698178568,
+      3114.674338722685
+    ],
+    "verdad_contrafactual_individual_disponible": false,
+    "nota": "El valor de referencia es una estimación experimental con error de muestreo, no un ATE verdadero conocido. El CSV no contiene Y(0) y Y(1) para cada unidad."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "modelo": "ate_rct_difference_in_means",
+  "version": "3.0.0",
+  "estimando": "ATE = E[Y(1) - Y(0)] sobre re78, en dólares de 1978, para la muestra experimental NSW",
+  "poblacion": "participantes y controles de la muestra experimental NSW/LaLonde disponible (445 unidades)",
+  "metodo": "Estimador principal: diferencia de medias de la muestra aleatorizada con IC de Welch. Sensibilidad ajustada: Double ML parcialmente lineal con PostLasso y cross-fitting a 5 folds.",
+  "efecto": {
+    "ate": 1794.342404270271,
+    "se": 670.9965463815241,
+    "ic95": [
+      474.0104698178568,
+      3114.674338722685
+    ]
+  },
+  "supuestos": [
+    {
+      "nombre": "no_confusion_condicional",
+      "clase": "no_observable",
+      "detalle": "la asignación aleatoria documentada apoya intercambiabilidad; el cumplimiento del protocolo no se verifica solo con el CSV",
+      "evidencia": "asignación aleatoria documentada por el diseño; su cumplimiento no se verifica solo con el CSV"
+    },
+    {
+      "nombre": "soporte_comun",
+      "clase": "observable",
+      "detalle": "ambos niveles de treat están presentes; la puerta diagnostica solapamiento observado",
+      "evidencia": "puerta pasa: e en [0.2204, 0.7397], ESS 0.9233"
+    },
+    {
+      "nombre": "SUTVA",
+      "clase": "no_observable",
+      "detalle": "sin interferencia entre unidades y una sola versión del programa",
+      "evidencia": "no verificable con estos datos; depende del diseño del programa"
+    },
+    {
+      "nombre": "efecto_homogeneo_PLR",
+      "clase": "no_observable",
+      "detalle": "solo para la estimación secundaria Double ML parcialmente lineal; no es requisito para la diferencia de medias",
+      "evidencia": "supuesto solo de la sensibilidad Double ML parcialmente lineal; el efecto servido es la diferencia de medias"
+    },
+    {
+      "nombre": "esparsidad_aproximada",
+      "clase": "no_observable",
+      "detalle": "supuesto de los learners Post-LASSO usados en la sensibilidad Double ML",
+      "evidencia": "supuesto de nuisance learners PostLasso sobre 21 features derivadas"
+    }
+  ],
+  "datos": {
+    "dataset_id": "lalonde_nsw",
+    "n": 445,
+    "tratados": 185,
+    "controles": 260,
+    "tasa_tratamiento": 0.4157,
+    "sha256_datos": "4c773801a2af3889277036b5dab929c556c7e92ae5b20833f052ded3cc6b092b",
+    "diseño": "muestra experimental aleatorizada NSW; covariables pretratamiento",
+    "limites": "solo resultados factuales; sin contrafactuales individuales; validez externa limitada",
+    "fuente": "NBER; Lalonde (1986), Dehejia-Wahba; atribución y uso no comercial según fuente"
+  },
+  "puerta": {
+    "estado": "pasa",
+    "metricas": {
+      "e_min": 0.2204,
+      "e_max": 0.7397,
+      "ess_relativo": 0.9233,
+      "fuera_de_banda": 0.0
+    },
+    "umbrales": {
+      "e_alerta": 0.05,
+      "e_falla": 0.01,
+      "ess_alerta": 0.5,
+      "ess_falla": 0.2
+    }
+  },
+  "validacion": {
+    "tipo": "comparación de estimadores en una muestra experimental real",
+    "estimador_principal": "diferencia de medias con IC de Welch",
+    "ate_referencia_muestral": 1794.342404270271,
+    "ic95_referencia_muestral": [
+      474.0104698178568,
+      3114.674338722685
+    ],
+    "verdad_contrafactual_individual_disponible": false,
+    "nota": "El valor de referencia es una estimación experimental con error de muestreo, no un ATE verdadero conocido. El CSV no contiene Y(0) y Y(1) para cada unidad."
+  },
+  "limites": [
+    "la estimación corresponde a la muestra experimental disponible; la validez externa a otras poblaciones es limitada",
+    "solo se observa el resultado factual; no hay verdad contrafactual individual ni error/cobertura Monte Carlo",
+    "el servicio comunica un ATE promedio, no efectos individuales (CATE)",
+    "la sensibilidad Double ML parcialmente lineal impone un efecto constante",
+    "el servicio se abstiene fuera del soporte p1–p99 y no sirve con la puerta en falla",
+    "citar a Lalonde (1986) y Dehejia-Wahba; respetar las condiciones de atribución y uso no comercial de la fuente"
+  ]
+}

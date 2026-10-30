@@ -1,0 +1,101 @@
+{
+  "modelo": "ate_doble_seleccion",
+  "version": "1.0.0",
+  "estimando": "ATE = E[Y(1) - Y(0)] sobre re78, en dólares",
+  "poblacion": "unidades del escenario sintético Jobs/LaLonde dentro del soporte de entrenamiento",
+  "metodo": "doble selección LASSO (Y y D) + OLS con EE HC1; conjunto de ajuste siempre incluido",
+  "efecto": {
+    "ate": 1619.2950917788728,
+    "se": 80.72918029871377,
+    "ic95": [
+      1461.0658983933938,
+      1777.5242851643518
+    ]
+  },
+  "supuestos": [
+    {
+      "nombre": "no_confusion_condicional",
+      "clase": "no_observable",
+      "detalle": "Y(0),Y(1) ⟂ treat | X con X = conjunto de ajuste declarado (Cap. 5)",
+      "evidencia": "no verificable; ajuste por age, educ, black, nodegree, re74, re75"
+    },
+    {
+      "nombre": "soporte_comun",
+      "clase": "observable",
+      "detalle": "0 < P(treat=1|X) < 1; se mide en la sección 4",
+      "evidencia": "puerta alerta: e en [0.0121, 0.7895], ESS 0.6674"
+    },
+    {
+      "nombre": "SUTVA",
+      "clase": "no_observable",
+      "detalle": "sin interferencia entre unidades y una sola versión del programa (Cap. 5)",
+      "evidencia": "no verificable con estos datos; depende del diseño del programa"
+    },
+    {
+      "nombre": "efecto_homogeneo_PLR",
+      "clase": "no_observable",
+      "detalle": "la especificación parcialmente lineal impone un efecto constante; no se contrasta",
+      "evidencia": "no contrastado; el estimando es un ATE bajo efecto constante"
+    },
+    {
+      "nombre": "esparsidad_aproximada",
+      "clase": "no_observable",
+      "detalle": "pocos controles derivados relevantes; requisito de la selección con LASSO (Cap. 6)",
+      "evidencia": "doble selección retuvo 12 de 19 controles"
+    }
+  ],
+  "datos": {
+    "n": 1722,
+    "tasa_tratamiento": 0.3833,
+    "semilla": 42,
+    "sha256_datos": "60e340727822c929b9e1afa12cf6c6653dace60549a7e60738de2bd134e5b2eb",
+    "limites": "datos sintéticos; sin validez externa; el archivo truth no entra al entrenamiento"
+  },
+  "puerta": {
+    "estado": "alerta",
+    "metricas": {
+      "e_min": 0.0121,
+      "e_max": 0.7895,
+      "ess_relativo": 0.6674,
+      "fuera_de_banda": 0.0035
+    },
+    "umbrales": {
+      "e_alerta": 0.05,
+      "e_falla": 0.01,
+      "ess_alerta": 0.5,
+      "ess_falla": 0.2
+    }
+  },
+  "validacion": {
+    "efecto_por_construccion": 1600.0,
+    "montecarlo": [
+      {
+        "procedimiento": "ingenuo",
+        "sesgo": -28.7175,
+        "sd": 82.7735,
+        "cobertura_ic95": 0.91,
+        "mc_se_cobertura": 0.0218
+      },
+      {
+        "procedimiento": "doble",
+        "sesgo": -20.9289,
+        "sd": 83.6357,
+        "cobertura_ic95": 0.93,
+        "mc_se_cobertura": 0.0218
+      },
+      {
+        "procedimiento": "oraculo",
+        "sesgo": -20.6054,
+        "sd": 83.3591,
+        "cobertura_ic95": 0.92,
+        "mc_se_cobertura": 0.0218
+      }
+    ]
+  },
+  "limites": [
+    "datos sintéticos: sin validez externa ni uso para decisiones reales",
+    "efecto homogéneo: no entrega efectos por unidad (CATE queda fuera de alcance)",
+    "la cobertura reportada es post-selección y se mide sobre este generador, no sobre datos reales",
+    "el servicio se abstiene fuera del soporte p1–p99 y no sirve con la puerta en falla"
+  ]
+}

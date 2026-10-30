@@ -1,0 +1,15 @@
+{
+  "estado": "pasa",
+  "metricas": {
+    "e_min": 0.2204,
+    "e_max": 0.7397,
+    "ess_relativo": 0.9233,
+    "fuera_de_banda": 0.0
+  },
+  "umbrales": {
+    "e_alerta": 0.05,
+    "e_falla": 0.01,
+    "ess_alerta": 0.5,
+    "ess_falla": 0.2
+  }
+}

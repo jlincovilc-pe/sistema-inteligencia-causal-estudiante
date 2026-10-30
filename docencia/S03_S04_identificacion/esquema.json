@@ -1,0 +1,9 @@
+{
+  "tratamiento": "D",
+  "resultado": "Y",
+  "ajustar_por": [
+    "U"
+  ],
+  "grafo": "digraph { U -> D; U -> Y; D -> Y; }",
+  "version": "2026-10-23"
+}
